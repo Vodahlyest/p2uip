@@ -1,0 +1,12 @@
+[package]
+name = "p2uip"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.29.0"
+local-ip-address = "0.6.11"
+ratatui = "0.30.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tokio = { version = "1.51.1", features = ["full"] }
