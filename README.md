@@ -47,8 +47,8 @@ Windows
 Перейдите в раздел Releases и скачайте архив для вашей ОС.
 
 🐧 Linux
-tar -xzf p2uip_linux.tar.gz
-cd p2uip
+unzip p2uip_linux.zip
+cd p2uip_linux
 sudo ./install.sh
 
 После установки:
@@ -73,7 +73,7 @@ p2uip
 Rust
 Cargo
 Установка
-git clone https://github.com/ВАШ_НИК/p2uip.git
+git clone https://github.com/Vodahlyest/p2uip.git
 cd p2uip
 cargo build --release
 
@@ -121,19 +121,7 @@ local-ip-address — определение IP
  Обработка ошибок в UI
  Звуковые уведомления
  Поддержка интернета (NAT traversal)
-🤝 Вклад в проект
-
-Контрибьюции приветствуются!
-
-Если хотите помочь:
-
-создавайте Issues
-предлагайте Pull Requests
-делитесь идеями
-📄 Лицензия
-
-Пока не указана. Рекомендуется добавить (например MIT).
-
+ 
 💡 Примечание
 
 Этот проект — учебный, но с прицелом на реальное применение.
